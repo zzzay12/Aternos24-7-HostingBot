@@ -1,21 +1,21 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "imgonnacream",
+    "username": "AFK BOT",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "xanderisgaysmp.aternos.me",
+    "port": 44083,
     "version": "",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
+    "x": 29999999,
     "y": 100,
-    "z": 0
+    "z": 29999999
   },
   "utils": {
     "auto-auth": {
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -36,7 +36,7 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
@@ -74,7 +74,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discordapp.com/api/webhooks/1484045562864205975/nUx8yEitXV-WpkNDMZW_ZkCYgWvdvLCApKluURb7v_B7LAD83M3UBIhMomBpOwUrOoiF",
     "events": {
       "connect": true,
       "disconnect": true,
