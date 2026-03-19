@@ -6,16 +6,16 @@
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "xanderisgaysmp.aternos.me",
+    "port": 44083,
     "version": "",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
+    "x": 29999999,
     "y": 100,
-    "z": 0
+    "z": 29999999
   },
   "utils": {
     "auto-auth": {
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -49,7 +49,7 @@
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
@@ -60,8 +60,8 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
-    "chat": true,
+    "beds": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
@@ -69,12 +69,12 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discordapp.com/api/webhooks/1484045562864205975/nUx8yEitXV-WpkNDMZW_ZkCYgWvdvLCApKluURb7v_B7LAD83M3UBIhMomBpOwUrOoiF",
     "events": {
       "connect": true,
       "disconnect": true,
