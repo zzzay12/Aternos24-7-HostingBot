@@ -8,7 +8,7 @@
   "server": {
     "ip": "xanderisgaysmp.aternos.me",
     "port":44083,
-    "version": "",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -59,9 +59,9 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
-    "beds": false,
-    "chat": true,
+    "combat": false,
+    "beds": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
